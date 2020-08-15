@@ -35,7 +35,7 @@ namespace Phoneword
 			else
 			{
 				translatedPhoneWordTextView.Text = translatedNumber;
-				phoneNumbers.Add(translatedNumber);
+				phoneNumbers.Insert(0, translatedNumber);
 			}
 		}
 		private void TranslationHistoryButton_Click(Object sender, EventArgs eventArgs)
