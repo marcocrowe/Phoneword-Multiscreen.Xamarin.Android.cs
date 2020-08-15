@@ -12,7 +12,7 @@
 		android:textAppearance="?android:attr/textAppearanceLarge" />
 	<EditText
 		android:id="@+id/PhoneNumberInputEditText"
-		android:inputType="number|phone|text"
+		android:inputType="text"
 		android:layout_height="wrap_content"
 		android:layout_width="match_parent"
 		android:text="@string/PhoneNumberInputEditText_Text" />
