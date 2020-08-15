@@ -1,6 +1,6 @@
 ---
-name: Xamarin.Android - Phoneword
-description: "Sample app for the article, Hello, Android (Quickstart). This version of Phoneword incorporates all of the functionality... (get started)"
+name: Xamarin.Android - Phoneword Multiscreen
+description: "This sample app accompanies the article, Hello, Android Multiscreen (get started)"
 page_type: sample
 languages:
 - csharp
@@ -9,13 +9,13 @@ products:
 extensions:
     tags:
     - getstarted
-urlFragment: phoneword
+urlFragment: phonewordmultiscreen
 ---
-# Phoneword
+# Phoneword Multiscreen for Xamarin.Android
 
 This sample app accompanies the article,
-[Hello, Android (Quickstart)](https://docs.microsoft.com/xamarin/android/get-started/hello-android/hello-android-quickstart).
-This version of **Phoneword** incorporates all of the functionality
-explained in this article, and it can be used as the starting point for
-the article,
 [Hello, Android Multiscreen (Quickstart)](https://docs.microsoft.com/xamarin/android/get-started/hello-android-multiscreen/hello-android-multiscreen-quickstart).
+
+This sample contains all of the sample code presented in this article.
+
+![Sample Android app](Screenshots/example-screenshot.png)
