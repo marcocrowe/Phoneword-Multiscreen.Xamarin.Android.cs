@@ -71,6 +71,9 @@ namespace Phoneword
 			// aapt resource value: 0x7F020003
 			public const int TranslatedPhoneWordTextView = 2130837507;
 			
+			// aapt resource value: 0x7F020004
+			public const int TranslationHistoryButton = 2130837508;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -108,6 +111,9 @@ namespace Phoneword
 			
 			// aapt resource value: 0x7F040002
 			public const int TranslateButton_Text = 2130968578;
+			
+			// aapt resource value: 0x7F040003
+			public const int TranslationHistoryButton_Text = 2130968579;
 			
 			static String()
 			{
