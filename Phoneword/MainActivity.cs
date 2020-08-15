@@ -31,7 +31,7 @@ namespace Phoneword
 			if (string.IsNullOrWhiteSpace(translatedNumber))
 			{
 				translatedPhoneWordTextView.Text = String.Empty;
-		}
+			}
 			else
 			{
 				translatedPhoneWordTextView.Text = translatedNumber;
@@ -41,11 +41,12 @@ namespace Phoneword
 		private void TranslationHistoryButton_Click(Object sender, EventArgs eventArgs)
 		{
 			Intent translationHistoryIntent = new Intent(this, typeof(TranslationHistoryActivity));
-			translationHistoryIntent.PutStringArrayListExtra("phone_numbers", phoneNumbers);
+			translationHistoryIntent.PutStringArrayListExtra(phoneNumbersKey, phoneNumbers);
 			StartActivity(translationHistoryIntent);
 		}
 		#region Fields
 		#endregion
+		internal readonly static String phoneNumbersKey = "phoneNumbers";
 		static readonly List<String> phoneNumbers = new List<String>();
 	}
 }

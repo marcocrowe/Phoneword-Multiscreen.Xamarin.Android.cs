@@ -12,7 +12,7 @@ namespace Phoneword
 		{
 			base.OnCreate(bundle);
 
-			IList<String> phoneNumbers = Intent.Extras.GetStringArrayList("phone_numbers") ?? new String[0];
+			IList<String> phoneNumbers = Intent.Extras.GetStringArrayList(MainActivity.phoneNumbersKey) ?? new String[0];
 			this.ListAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItem1, phoneNumbers);
 		}
 	}
