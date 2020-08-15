@@ -26,4 +26,9 @@
 		android:layout_height="wrap_content"
 		android:layout_width="match_parent"
 		android:textAppearance="?android:attr/textAppearanceLarge" />
+	<Button
+		android:id="@+id/TranslationHistoryButton"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="@string/TranslationHistoryButton_Text" />
 </LinearLayout>

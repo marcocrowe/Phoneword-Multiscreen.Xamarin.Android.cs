@@ -3,4 +3,5 @@
 	<string name="PhoneNumberInputEditText_Text">1-855-XAMARIN</string>
 	<string name="PhoneNumberInputLabelTextView_Text">Enter a Phoneword:</string>
 	<string name="TranslateButton_Text">Translate</string>
+	<string name="TranslationHistoryButton_Text">Translation History</string>
 </resources>
